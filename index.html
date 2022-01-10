@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <title>MemoryGame</title>
+</head>
+<body>
+
+
+    <div id="textField"><h1 id="answer" class="numText"></h1></div>
+
+    <div id="numbers">
+        <div onclick="n1()" id="num1" class="number"><h1 class="numText" id="num1t">1</h1></div>
+        <div onclick="n2()" id="num2" class="number"><h1 class="numText" id="num2t">2</h1></div>
+        <div onclick="n3()" id="num3" class="number"><h1 class="numText" id="num3t">3</h1></div>
+
+        <div onclick="n4()" id="num4" class="number"><h1 class="numText" id="num4t">4</h1></div>
+        <div onclick="n5()" id="num5" class="number"><h1 class="numText" id="num5t">5</h1></div>
+        <div onclick="n6()" id="num6" class="number"><h1 class="numText" id="num6t">6</h1></div>
+
+        <div onclick="n7()" id="num7" class="number"><h1 class="numText" id="num7t">7</h1></div>
+        <div onclick="n8()" id="num8" class="number"><h1 class="numText" id="num8t">8</h1></div>
+        <div onclick="n9()" id="num9" class="number"><h1 class="numText" id="num9t">9</h1></div>
+
+        <div id="num10" class="number"><h1 class="numText" id="num10t">*</h1></div>
+        <div onclick="n0()" id="num0" class="number"><h1 class="numText" id="num0t">0</h1></div>
+        <div id="num11" class="number"><h1 class="numText" id="num11t">#</h1></div>
+
+        <div onclick="call()" id="call" class="number"><img src="call.png" class="numText" id="callt"></div>
+    </div>
+
+    <div class="center">
+        <div id="showStart">
+            <h1>Remember The Number</h1>
+            <h1 id="ok" onclick="start()">OK</h1>
+        </div>
+
+        <div id="showNum">
+            
+            <h1 id="numberShowStart"></h1>
+            <h1 id="ok1" onclick="hide()">Start</h1>
+        
+        </div>
+
+        <div id="showWin">
+            <h1 id="green">Correct !!!</h1>
+            <h1 id="ok3" onclick="start()">Play Again</h1>
+        </div>
+
+
+        <div id="showEnd">
+            <h1 id="numberShowIncorrect"></h1>
+            <h1 id="numberShowCorrect"></h1>
+            <h1 onclick="start()" id="ok3">Play Again</h1>
+        </div>
+    </div>
+    
+</body>
+</html>

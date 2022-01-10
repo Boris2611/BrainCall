@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Comic Neue', cursive;
+    background-color: whitesmoke;
+}
+
+
+
+#textField {
+    position: absolute;
+    border: 1px solid rgb(207, 207, 207);
+    width: 280px;
+    height: 50px;
+    top: 30px;
+    left: 50px;
+    border-radius: 10px;
+}
+
+.numText {
+    margin-top: 20px;
+}
+
+#answer {
+    position: absolute;
+    top: -12px;
+    left: 20px;
+}
+
+.number {
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    height: 80px;
+    width: 80px;
+    background-color: rgb(223, 223, 223);
+    border-radius: 50%;
+    text-align: center;
+    font-size: larger;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+#num2,#num5, #num8, #num0 {
+    left: 150px;
+}
+
+#num3, #num6, #num9, #num11 {
+    left: 250px;
+}
+
+#num4, #num5, #num6 {
+    top: 220px;
+}
+
+#num7, #num8, #num9 {
+    top: 320px;
+}
+
+#num10, #num0, #num11 {
+    top: 420px;
+}
+
+#call {
+    top: 520px;
+    left: 150px;
+    background-color: rgb(44, 184, 44);
+}
+
+.number:hover {
+    background-color: rgb(190, 190, 190);
+}
+
+#call:hover {
+    background-color: rgb(85, 204, 85);
+}
+
+#callt {
+    width: 40px;
+}
+
+
+.center {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#showEnd {
+    visibility: hidden;
+}
+
+#showNum {
+    visibility: hidden;
+}
+
+#showWin {
+    visibility: hidden;
+}
+
+#showStart, #showEnd, #showNum, #showWin {
+    position: absolute;
+    width: 330px;
+    background-color: rgb(221, 221, 221);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 10px #999;
+    height: 200px;
+    top: 200px;
+}
+
+#ok {
+    position: absolute;
+    top: 110px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    left: 200px;
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+}
+
+#ok:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+#ok1 {
+    position: absolute;
+    top: 110px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    left: 180px;
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+}
+
+#ok1:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+#ok3 {
+    width: 170px;
+    position: absolute;
+    top: 110px;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #999;
+    border-radius: 10px;
+    left: 105px;
+    cursor: pointer;
+    background-color: rgb(209, 209, 209);
+}
+
+#ok3:hover {
+    background-color: rgb(199, 199, 199);
+}
+
+
+#numberShowStart {
+    position: relative;
+    top: 20px;
+}
+
+
+
+#numberShowCorrect {
+    color: green;
+}
+
+#numberShowIncorrect {
+    color: red;
+}
+
+#green {
+    position: relative;
+    color: green;
+    top: 20px;
+}
+
