@@ -65,6 +65,13 @@ function input() {
     }
 }
 
+function removeText() {
+    answer = [];
+    number = '';
+    console.log("Deleted")
+    document.getElementById("answer").innerHTML = number;
+
+}
 
 function call() {
     callSound.play()
