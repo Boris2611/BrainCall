@@ -4,6 +4,7 @@ body {
     margin: 0;
     font-family: 'Comic Neue', cursive;
     background-color: whitesmoke;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 
 
@@ -86,6 +87,8 @@ body {
     justify-content: center;
     text-align: center;
 }
+
+
 
 #showEnd {
     visibility: hidden;
